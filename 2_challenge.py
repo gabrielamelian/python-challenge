@@ -8,3 +8,5 @@ char_frequency = collections.Counter(file_to_decrypt.read())
 for char, frequency in char_frequency.iteritems():
     if (frequency == 1):
         print char
+
+"""Solution is equality.html."""
