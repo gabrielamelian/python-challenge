@@ -13,6 +13,7 @@ def decrypt(letter):
     return letter
 
 print ''.join(map(decrypt, to_decrypt))
+print ''.join(map(decrypt, "map"))
 
 # Solution using maketrans()
 
