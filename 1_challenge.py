@@ -22,3 +22,4 @@ cypher = "cdefghijklmnopqrstuvwxyzab"
 translator = string.maketrans(alphabet_string, cypher)
 
 print to_decrypt.translate(translator)
+print "map".translate(translator)
