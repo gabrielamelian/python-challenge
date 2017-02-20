@@ -13,3 +13,12 @@ def decrypt(letter):
     return letter
 
 print ''.join(map(decrypt, to_decrypt))
+
+# Solution using maketrans()
+
+alphabet_string = "abcdefghijklmnopqrstuvwxyz"
+cypher = "cdefghijklmnopqrstuvwxyzab"
+
+translator = string.maketrans(alphabet_string, cypher)
+
+print to_decrypt.translate(translator)
